@@ -1,0 +1,7 @@
+travis integration notes:
+- make .travis.yml (note: TWO dots)
+- sign in to travis via Github (nice)
+- travis (regular), "magnum travis" (private)https://travis-ci.org/getting_started
+  - travis works by default with github (you just need to sign in)
+- get your token from the top-left corner (how to show this in video without sharing token?)
+- once you add Travis, it will auto-integrate into Github
