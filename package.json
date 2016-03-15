@@ -1,0 +1,23 @@
+{
+  "name": "github-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+	"start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielstern/integration-test-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielstern/integration-test-repo/issues"
+  },
+  "homepage": "https://github.com/danielstern/integration-test-repo#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
