@@ -6,7 +6,7 @@ let Express = require('express');
 let app = new Express();
 app.get('/',(req,res)=>{
 	console.log("User connecting to app");
-	res.status(200).send("Hello world");
+	res.status(200).send("Hello Node.js");
 })
 .post('/webhook',(req,res)=>{
 	console.log("Webhook activated");
