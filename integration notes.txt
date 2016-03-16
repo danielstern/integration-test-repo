@@ -29,5 +29,7 @@ PR Deploys (BETA)
 - create an app.json file automatically using form
 - ignore item could not be modified error
 - create a new branch, push it, create a pr
+- pull requests will show up as pr-4-[app name]
 Automatic Deploys
  - after installing Travis, enable wait for CI to pass 
+- as this is beta, may get an error - app should still work at specified location
