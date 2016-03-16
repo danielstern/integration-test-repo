@@ -24,7 +24,10 @@ heroku integration notes:
 - create a new app
 - for deployment method, select Github (instead of Heroku Git)
 - allow heroku access to github
+PR Deploys (BETA)
 - enable automatic deploys on PR
 - create an app.json file automatically using form
 - ignore item could not be modified error
 - create a new branch, push it, create a pr
+Automatic Deploys
+ - after installing Travis, enable wait for CI to pass 
