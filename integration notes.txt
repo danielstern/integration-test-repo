@@ -6,6 +6,7 @@ travis integration notes:
 - get your token from the top-left corner (how to show this in video without sharing token?)
 - once you add Travis, it will auto-integrate into Github
   - default is Ruby
+  - set environment variables in travis .yml
 - make a change and push the repo, then go to travis home page. You will see build running.
 - upload a different branch - it will show up in branches
 - create a pull request, notice another Travis build starts. go to PR and Travis warning will appear in real time.
@@ -15,3 +16,15 @@ travis integration notes:
 - notice how some builds pass, and some fail - useful!
 https://docs.travis-ci.com/user/languages/javascript-with-nodejs
 - now add the build status to the readme
+- add [ci skip] to commit message to ignore CI
+
+heroku integration notes:
+- make account on heroku
+- log in
+- create a new app
+- for deployment method, select Github (instead of Heroku Git)
+- allow heroku access to github
+- enable automatic deploys on PR
+- create an app.json file automatically using form
+- ignore item could not be modified error
+- create a new branch, push it, create a pr
