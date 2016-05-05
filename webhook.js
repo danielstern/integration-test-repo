@@ -12,7 +12,7 @@ app.get('/',(req,res)=>{
 })
 .post('/webhook',(req,res)=>{
 	console.log("Webhook activated");
-	console.log(req.body.description);
+	console.log(req.body);
 	res.status(200).send();
 })
 .listen(process.env.PORT || 80,()=>{
