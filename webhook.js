@@ -10,7 +10,9 @@ app.get('/',(req,res)=>{
 })
 .post('/webhook',(req,res)=>{
 	console.log("Webhook activated");
+	res.status(200).send();
 })
 .listen(process.env.PORT || 80,()=>{
 	console.log("Running webhook listener...");
 }) ;
+	
