@@ -4,7 +4,7 @@ console.log("Running webapp...");
 
 let Express = require('express');
 let app = new Express();
-app.use(express.bodyParser());
+app.use(Express.bodyParser());
 app.get('/',(req,res)=>{
 	console.log("User connecting to app");
 	res.status(200).send("Hello Node.js");
